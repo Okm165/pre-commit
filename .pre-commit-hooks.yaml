@@ -15,7 +15,7 @@
 - id: cargo-clippy
   name: cargo clippy
   description: Lint rust sources
-  entry: cargo clippy
+  entry: cargo clippy --fix --allow-dirty
   language: system
   types: [rust]
   pass_filenames: false
