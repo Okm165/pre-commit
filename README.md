@@ -5,7 +5,7 @@
 ## Using rust tools with pre-commit
 
 ```yaml
--   repo: https://github.com/doublify/pre-commit-rust
+-   repo: https://github.com/Okm165/pre-commit.git
     rev: master
     hooks:
     -   id: fmt
@@ -15,7 +15,7 @@
 ## Passing arguments to rustfmt
 
 ```yaml
--   repo: https://github.com/doublify/pre-commit-rust
+-   repo: https://github.com/Okm165/pre-commit.git
     rev: master
     hooks:
     -   id: fmt
